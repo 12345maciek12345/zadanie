@@ -1,25 +1,62 @@
 <!DOCTYPE html>
         <html lang="pl-PL">
-        <html>
+       
                <head>
+	
                     <meta charset="utf-8">
-                    <title> Chustak  </title>
+                    <title> Formularz </title>
                      </head>
                     <body>
-                    <p align="left"> <font color="red" size="1" face="Arial"> Maciek </font> </p> <br>
-                    <p align="right"> <font color="red" size="2" face="Arial"> Maciek </font> </p> <br>
-                    <p align="right"> <font color="red" size="3" face="Arial"> Maciek </font> </p> <br>
-                    <p align="right"> <font color="red" size="4" face="Arial"> Maciek </font> </p> <br>
-                    <p align="right"> <font color="red" size="5" face="Arial"> Maciek </font> </p> <br>
-                    <p align="right"> <font color="red" size="6" face="Arial"> Maciek </font> </p> <br>
-                    <p align="right"> <font color="red" size="7" face="Arial"> Maciek </font> </p> <br>
-                    <p align="right"> <font color ="blue" size="5" face="Arial"> Adres: Malbork ul.Zielona 9 42-000 </font> </p> <br>
-                    <p align="right"> <font color ="blue" size="5" face="Arial"> Ulubiony aktor:Johny Sins </font> </p> <br>
-                    <p align="right"> <font color="blue" size="5" face="Arial"> Ulubiony zespół muzyczny:Bracia Golec </font> </p> <br>
-                    <p align="right"> <font color="blue" size="5" face="Gulim"> 20 marzec 2000</font> </p> <br>
-                    <p align="left"> <font color="blue" size="5" face="Arial"> H3SO5 </font> </p> <br>
-                    <p align="center"> <font color="blue" size="5" face="Batang"> x*x=x2 </font> </p> <br>
+					Formularz firmy:
+					<body>
+					
+					<form action="mailto:twój_adres_poczty@domena" method="post" enctype="text/plain"><div>
+<!-- Podstawowe pole tekstowe -->
+<input name="Imię i nazwisko">Podaj swoje imię i nazwisko <br>
+                    <p>Podaj informacje na temat twojej przyszłej firmy:</p>
+					<input name="Imię">Nazwa firmy<br>
+					<input name="Imię">Forma prawna firmy<br>
+					<input name="Imię">Data rejestracji firmy<br>
+	                <p>Podaj informacje osobiste:</p>
+					<input name="info osobiste">Ulica<br>
+					<input name="info osobiste">Kod pocztowy<br>
+					<p>Wojewodztwo</p>
+<select name="Przeglądarka">
+	<option selected>Wojewodztwo</option>
+	<option>Dolnośląskie</option>
+	<option>kujawsko pomorskie</option>
+	<option>lubelskie</option>
+	<option>lubulskie</option>
+	<option>łódzkie</option>
+	<option>małopolskie</option>
+	<option>mazowieckie</option>
+	<option>opolskie</option>
+	<option>podkarpackie</option>
+	<option>podlaskie</option>
+	<option>pomorskie</option>
+	<option>śląskie</option>
+	<option>świętokrzyskie</option>
+	<option>warmińsko-mazurskie</option>
+	<option>wielkopolskie</option>
+	<option>zachodniopomorskie</option>
+</select>
+<p>Podaj swoją płeć:</p>
+<input type="radio" name="Płeć" value="Kobieta">Kobieta
+<input type="radio" name="Płeć" value="Mężczyzna">Mężczyzna
 
-					</body>
-</html>
------------------------
+<p>Podaj informacje bankowe:</p>
+					<input name="Imię">NIP<br>
+					<input name="Imię">Numer konta <br>
+					<!-- Pole komentarza (o powiększonych rozmiarach oraz z tekstem domyślnym) -->
+<p>Dlaczego chcesz założyć firme:</p>
+<textarea name="Komentarz" cols="50" rows="10">Podziel sie z nami informacja...</textarea>
+<br><br><br>
+ <p>Podaj informacje prywatne:</p>
+					<input name="Imię">telefon<br>
+					<input name="Imię">adres e-mail<br>
+					<!-- Przycisk WYŚLIJ -->
+<input type="submit" value="Wyślij formularz">
+<!-- Przycisk WYCZYŚĆ DANE -->
+<input type="reset" value="Wyczyść dane">
+</div></form>
+		
